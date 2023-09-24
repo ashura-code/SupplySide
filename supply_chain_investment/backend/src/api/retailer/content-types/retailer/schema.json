@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "retailers",
+  "info": {
+    "singularName": "retailer",
+    "pluralName": "retailers",
+    "displayName": "Retailer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "key": {
+      "type": "integer"
+    },
+    "img": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "raised": {
+      "type": "integer"
+    }
+  }
+}

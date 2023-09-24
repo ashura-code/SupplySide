@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "farmings",
+  "info": {
+    "singularName": "farming",
+    "pluralName": "farmings",
+    "displayName": "farming"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "key": {
+      "type": "integer",
+      "unique": true
+    },
+    "img": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "raised": {
+      "type": "integer"
+    }
+  }
+}
